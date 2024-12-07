@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Precious Pictures</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+        }
+        header img {
+            height: 150px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        /* Contact Information */
+        .contact-info {
+            margin: 20px 0;
+            font-size: 1.2rem;
+        }
+
+        .contact-info p {
+            margin: 10px 0;
+        }
+
+        .contact-info a {
+            color: #f39c12;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* Email Form */
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            font-size: 1rem;
+        }
+
+        form button {
+            background-color: #f39c12;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #e67e22;
+        }
+
+        /* Hours of Operation Section */
+        .hours {
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+
+        .hours h2 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        .hours ul {
+            list-style-type: none;
+            padding: 0;
+            font-size: 1.2rem;
+            color: #555;
+        }
+
+        .hours ul li {
+            margin: 5px 0;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            background: #333;
+            color: white;
+            padding: 20px 0;
+        }
+        footer p {
+            margin: 10px 0;
+        }
+        footer a {
+            color: #f39c12;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="images/Precious.png" alt="Precious Pictures Logo">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="ourwork.html">Our Work</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contact Us</h1>
+
+        <!-- Contact Information -->
+        <div class="contact-info">
+            <p><strong>Email:</strong> <a href="mailto:landonjsearles@gmail.com">landonjsearles@gmail.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:+17175047086">(717) 504-7086</a></p>
+            <p><strong>Address:</strong> 600 Hoyt Street Peru, Ne, 68421</p>
+        </div>
+
+        <!-- Email Form -->
+        <form action="submit_form.php" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="tel" name="phone" placeholder="Your Phone Number" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <!-- Hours of Operation -->
+        <section class="hours">
+            <h2>Our Hours</h2>
+            <ul>
+                <li>Monday: 9 AM - 5 PM</li>
+                <li>Tuesday: 9 AM - 5 PM</li>
+                <li>Wednesday: 9 AM - 5 PM</li>
+                <li>Thursday: 9 AM - 5 PM</li>
+                <li>Friday: 9 AM - 5 PM</li>
+                <li>Saturday: 10 AM - 2 PM</li>
+                <li>Sunday: Closed</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+	        <!-- Contact Info Section -->
+        <div class="contact-info">
+            <p><strong>Email:</strong> <a href="mailto:landonjsearles@gmail.com">Email Us!</a></p>
+            <p><strong>Phone:</strong> <a href="tel:+7175047086">Call Us!</a></p>
+        </div>
+
+        <p>Follow Us: 
+            <a href="https://www.facebook.com/" target="_blank">Facebook</a> | 
+            <a href="https://www.instagram.com/" target="_blank">Instagram</a> | 
+            <a href="https://twitter.com/" target="_blank">Twitter</a>
+        </p>
+        <p>&copy; 2024 Precious Pictures. All rights reserved.</p>
+    </footer>
+</body>
+</html>
