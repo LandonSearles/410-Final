@@ -96,6 +96,61 @@
             color: #555;
         }
 
+        /* Pricing Table */
+        .pricing-table {
+            width: 80%;
+            margin: 40px auto;
+            border-collapse: collapse;
+            text-align: center;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .pricing-table th, .pricing-table td {
+            padding: 15px;
+            border: 1px solid #ddd;
+            font-size: 1.2rem;
+        }
+
+        .pricing-table th {
+            background-color: #f39c12;
+            color: white;
+        }
+
+        .pricing-table tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+
+        .pricing-table tr:hover {
+            background-color: #e67e22;
+            color: white;
+        }
+
+        .pricing-table td {
+            font-size: 1.1rem;
+        }
+
+        /* YouTube Video Section */
+        .video-container {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .video-container a {
+            display: inline-block;
+            margin-top: 20px;
+            color: #f39c12;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            height: 400px;
+            border: none;
+        }
+
         /* Hours of Operation Section */
         .hours {
             background-color: #f1f1f1;
@@ -180,6 +235,67 @@
                 <h3>Sports Coverage</h3>
                 <p>Making every event memorable through our lens.</p>
             </div>
+        </section>
+
+        <!-- Pricing Table -->
+        <section class="pricing-table">
+<table class="pricing-table">
+    <thead>
+        <tr>
+            <th>Information</th>
+            <th>30 Minute Session</th>
+            <th>60 Minute Session</th>
+            <th>90 Minute Session</th>
+            <th>120 Minute Session</th>
+            <th>180 Minute Session</th>
+            <th>240 Minute Session</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1 Location</td>
+            <td>$60</td>
+            <td>$100</td>
+            <td>$120</td>
+            <td>$150</td>
+            <td>$180</td> 
+            <td>$210</td> 
+        </tr>
+        <tr>
+            <td>2 Locations</td>
+            <td>$80</td>
+            <td>$120</td>
+            <td>$150</td>
+            <td>$175</td>
+            <td>$200</td> 
+            <td>$225</td> 
+        </tr>
+        <tr>
+            <td>3 Locations</td>
+            <td>$100</td>
+            <td>$150</td>
+            <td>$175</td>
+            <td>$200</td>
+            <td>$225</td> 
+            <td>$250</td> 
+        </tr>
+        <tr>
+            <td>4 Locations</td>
+            <td>$120</td>
+            <td>$170</td>
+            <td>$200</td>
+            <td>$250</td>
+            <td>$275</td> 
+            <td>$300</td> 
+        </tr>
+    </tbody>
+</table>
+        </section>
+
+        <!-- YouTube Video Section -->
+        <section class="video-container">
+            <a href="https://www.youtube.com/watch?v=w5v3y8LqPxU&ab_channel=EricFloberg" target="_blank">Click here to watch the video</a>
+            <iframe src="https://www.youtube.com/embed/w5v3y8LqPxU" title="Precious Pictures Video" allowfullscreen></iframe>
         </section>
     </main>
 
